@@ -20,8 +20,7 @@
 + Run the `Model_as_Service.py` to start the LLM service and parsing model.<br>
 + Run the `Machine_Annotation_main.py` for your experiments on machine annotation for stance detection data.<br>
 + You can convert other stance detection corpora to json format.<br>
-+ The default LLM is `vicuna-13b-v1.5`, you can change it in the `Machine_Annotation_main.py`. Please adjust the prompt format according to the LLM you use.<br>
-
++ The default LLM as example is `vicuna-13b-v1.5`, you can change the `checkpoint_path` to use other models in the `Model_as_Service.py`. Please adjust the prompt format according to the LLMs you use.<br>
 
 
 ## Citation
