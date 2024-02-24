@@ -8,8 +8,9 @@
   transformers==4.31 <br>
   torch==1.13.1 <br>
 
-* To run the adversarial strategy of multi-target machine annotation, please install benepar for the parsing step:<br>
-  https://github.com/nikitakit/self-attentive-parser
+* To run the adversarial strategy of multi-target machine annotation, please install spacy and benepar for the parsing step:<br>
+  https://spacy.io/models/en#en_core_web_trf <br>
+  https://github.com/nikitakit/self-attentive-parser <br>
 
 ## Data Format
 + The original SemEval16 Tweet Stance Detection data are located at `./Stance_Data_JSON/`.<br>
